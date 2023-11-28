@@ -1,0 +1,5 @@
+db 	1byte
+dw	2byte
+dd 	4 byte
+dq 	8byte
+dt	10byte

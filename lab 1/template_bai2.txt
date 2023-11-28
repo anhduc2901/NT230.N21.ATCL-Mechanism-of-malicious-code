@@ -1,0 +1,90 @@
+%assign SYS_EXIT 1
+%assign SYS_WRITE 4
+%assign STDOUT 1
+;;; -----------------------------------------------------
+;;; data section
+;;; -----------------------------------------------------
+section .data
+x db 798
+msgX db "x = "
+ 
+;;; -----------------------------------------------------
+;;; code section
+;;; -----------------------------------------------------
+section .text
+global _start
+_start:
+;;; display x
+ mov ecx, msgX
+ mov edx, 4
+ call _printString
+mov eax, 0
+ mov al, byte[x]
+ call _printDec
+ ;;; ; exit
+ mov ebx, 0
+ mov eax, 1
+ int 0x80
+ 
+_printString:
+ push eax
+ push ebx
+ 
+ mov eax,SYS_WRITE
+ mov ebx,STDOUT
+ int 0x80
+ pop ebx
+ pop eax
+ ret
+;;; ; ------------------------------------------------------------
+;;; ; _println put the cursor on the next line.
+;;; ;
+;;; ; Example:
+;;; ; call _println
+;;; ;
+;;; ; REGISTERS MODIFIED: NONE
+;;; ; ------------------------------------------------------------
+_println: 
+ section .data
+.nl db 10
+ 
+ section .text
+ push ecx
+ push edx
+ 
+ mov ecx, .nl
+ mov edx, 1
+ call _printString
+ pop edx
+ pop ecx
+ ret
+ 
+_printDec:
+;;; saves all the registers so that they are not changed by the function
+section .bss
+.decstr resb 10
+.ct1 resd 1 ; to keep track of the size of the string
+section .text
+ pushad ; save all registers
+ mov dword[.ct1],0 ; assume initially 0
+ mov edi,.decstr ; edi points to decstring
+ add edi,9 ; moved to the last element of string
+ xor edx,edx ; clear edx for 64-bit division
+.whileNotZero:
+ mov ebx,10 ; get ready to divide by 10
+ div ebx ; divide by 10
+ add edx,'0' ; converts to ascii char
+ mov byte[edi],dl ; put it in sring
+ dec edi ; mov to next char in string
+ inc dword[.ct1] ; increment char counter
+ xor edx,edx ; clear edx
+ cmp eax,0 ; is remainder of division 0?
+ jne .whileNotZero ; no, keep on looping
+ inc edi ; conversion, finish, bring edi
+ mov ecx, edi ; back to beg of string. make ecx
+ mov edx, [.ct1] ; point to it, and edx gets # chars
+ mov eax, SYS_WRITE ; and print!
+ mov ebx, STDOUT
+ int 0x80
+ popad ; restore all registers
+ ret

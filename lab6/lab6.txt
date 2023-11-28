@@ -1,0 +1,70 @@
+Lây qua mail
+	Xanh biển
+
+Mục đích của phần mềm độc hại nonexistent hoặc nonfuctional
+	Đánh lừa các công cụ phân tích và chống malware
+
+Mục đích của trojan horse
+	Truy cập thông tin nhạy cảm
+
+Phương pháp ngăn chặn sự lan truyền của worm
+	ALL
+
+Biểu đồ
+	tốc độ tiêm nhiễm tăng trong giai đoạn trung gian của quá trình lan truyền
+
+Một phương thức nào sau đây đc sử dụng bởi worm
+	ALL
+
+Nguyên tắc của một chương trình worm
+	Truyền qua các kết nối mạng từ ht này sagn ht khác
+
+Ransomware là gì 
+	malware mã hóa dữ liệu tống tiền
+Trigger của 1 virus mt
+	Sự kiện, điều kiện
+
+Giai đoạn nào là giai đoạn triggering
+	giai đoạn khi virus đc kích hoạt thực hiện chức năng đc thiết kế
+	
+
+Loại rootkit nào chỉ tồn tại trong bộ nhớ và khó phát hiện hơn
+	Memory based
+
+How systemcalls can be modified as a rootkit
+	ALL
+
+Nếu việc xác định , loại bỏ malware không khả thi,giải pháp thay thế là gì
+	ALL
+
+Trên linux, "ls" or "find" gọi đến systemcalls nào để hiển thị danh sách các tệp
+	Getdents()
+
+Biện pháp phóng ngừa malware đầu tiên
+	Giữ các hệ thống cập nhật vs các bản vá
+
+Trong số các yếu tố sau đây, yếu tố nào không phải yếu tố chính của việc ngăn chặn malware
+	Threat mitigation
+
+Mục tiêu chính của rootkit cấp kernel
+	Systemcalls
+
+Điều gì làm cho việc phát hiện rootkit Persistent dễ dàng hơn
+	Chúng lưu trữ mã vào bộ nhớ cố định
+
+Loại rootkit nào kích hoạt khi hệ thống khởi độn
+	Persistent
+
+Khi một kẻ tấn công có quyền truy cập root vào hệ thống, họ có mức kiểm soát nào
+	Hoàn toàn kiểm soát với đặc quyền quản trị
+
+Rootkit đạt đc quyền truy cập bí mật vào hệ thống như thế nào
+	Làm sai lệch cơ chế giám sát trên máy tính
+
+Mục đích chính của rootkit
+	Cung cấp quyền truy cập bí mật vào hệ thống với quyền admin
+
+
+	
+
+	

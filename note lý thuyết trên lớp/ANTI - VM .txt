@@ -1,0 +1,27 @@
+1. có giao tiếp giữa host và VM
+	trong logs, registry,..
+
+2. attacker : tìm string , ... liên quan đến VM
+
+3. sidt : ghi giá trị của mt VM vào bảng ngắt
+tìm giá trị,tín hiệu ngắt
+
+4. qua port : tìm tt , để xđ có phải VM hay k
+- port : keyboard từ host qua VM
+
+- ScoopyNG
+
+- twerking : set up để giảm sự phát hiện của malware trên vm
+
+
+
+=> 
+1. Dựa vào sự giao tiếp của hot và vm-ware : logs , registry 
+
+2. Nhập keyboard thì sẽ có sự giao tiếp giữa host và vm-ware : ports
+
+3.Tìm string liên quan đến vm-ware 
+
+4. Xem sidt :
+	 ghi giá trị của mt VM vào bảng ngắt
+	tìm giá trị,tín hiệu ngắt

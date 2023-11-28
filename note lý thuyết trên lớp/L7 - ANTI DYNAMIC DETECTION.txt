@@ -1,0 +1,119 @@
+Using the Windows API
+	o determine if it is being debugged
+IsDebuggerPresent
+CheckRemoteDebuggerPresent
+
+NtQueryInformationProcess
+
+OutputDebugString
+
+Checking the BeingDebugged Flag
+ PEB structure is maintained by the OS for each running process
+	 environment variables
+	 the loaded modules list
+	 addresses in memory
+	 debugger status
+
+Manually Checking Structures
+	the API calls could be hooked by a rootkit to return false
+	information.
+		=. Root xam nhap chiem quyen kernel space => lam cho ht hoat dong sai
+	 fs:[30h]. 	BeingDebugged flag.
+
+Checking the ProcessHeap Flag
+	 0x18 in the PEB structure.
+	 Offset 0x10 = ForceFlags is 0 , debugger isn't present
+
+Checking NTGlobalFlag
+	offset 0x68
+	 is not being debugged, the NtGlobalFlag field contains the value 0x0
+
+Checking for System Residue
+	debugging tools, which leave residue on the system.
+	 searching registry keys for references to debuggers
+		HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows
+		NT\CurrentVersion\AeDebug
+		
+	search the system for files and directories
+		HWND WINAPI FindWindow
+		if(FindWindow("OLLYDBG", 0) == NULL)
+
+INT Scanning
+	software interrupt used by debuggers
+		set a breakpoint , the debugger replaces the FIRST byte of that instruction with INT 3	
+			The opcode for INT 3 is 0xCC.
+
+Performing Code Checksums
+	malware can calculate a checksum on a section of its code to accomplish the same goal as scanning for interrupts
+	cyclic redundancy check (CRC) or a MD5 checksum of the opcodes in the malware
+
+
+Timing Checks
+	processes run more slowly when being debugged.
+	there is a lag (when debugging), you can assume the presence of a debugger ()
+	Using the rdtsc Instruction
+		(opcode 0x0F31),
+		returns the count of the number of ticks
+
+
+		operation:
+			I thread local storage (TLS) callbacks
+			I exceptions
+			I interrupt insertion
+
+Using Thread Local Storage (TLS) Callbacks
+	I Malwares employ TLS callbacks to evade debugger messages.
+	I A TLS callback can be used to execute code before the entry point 
+
+Debugger Vulnerabilities
+	malware authors attack them in order to prevent debugging.
+
+PE Header Vulnerabilities
+	 modifies the Microsoft PE header of a binary executable, causing OllyDbg to crash when loading the executable.
+	  Malware often attempts to exploit a format string vulnerability in OllyDbg
+	Beware of suspicious calls like OutputDebugString ("%s%s%s%s%s%s%s%s%s%s%s%s%s%s"). If this call executes, debugger will crash.
+
+Anti-Virtual Machine (anti-VM) Techniques I
+	leaves many artifacts on the system
+	VMwareService.exe,
+	VMwareTray.exe, and
+	VMwareUser.exe
+		can befound by malware as itsearches the process listing for the VMware string
+	 can be identified by searching the registry for services installed on a machine or by listing services using the following command
+		netstat | findstr VMware
+
+
+File System and Registry
+	The VMware installation directory C:\Program Files\VMware\VMware Tool
+
+
+	sidt
+		specified memory region.	
+		I run on a multicore processor machine
+		I NOP-out the sidt instruction
+		I Modify the jump following the test
+
+
+Querying the I/O Communication Port
+	The in instruction reads from a port (serial and printer ports, keyboard,mouse, temperature sensors, ...)
+
+ScoopyNG
+	 free VMware detection tool
+
+
+
+Identifying Packed Programs I
+	program has few imports
+		 LoadLibrary and GetProcAddress.
+	s opened in IDA Pro, only a small amount of code is recognized by the automatic analysis
+	opened in OllyDbg, there is a warning that the program may be packed.
+	 section names that indicate a particular packer (such as UPX0).
+
+	
+
+
+
+
+
+
+

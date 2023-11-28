@@ -1,0 +1,87 @@
+%assign SYS_EXIT 1
+%assign SYS_WRITE 4
+%assign STDOUT 1
+
+;;; -----------------------------------------------------
+;;; data section
+;;; -----------------------------------------------------
+section .data
+x        db        123
+msgX     db        "x = "
+len_msgX equ       $- msgX
+
+segment .bss
+number_str resb    4
+
+;;; -----------------------------------------------------
+;;; code section
+;;; -----------------------------------------------------
+section .text
+global _start
+_start:
+;;; xuất X= ra màn hình
+mov ecx, msgX
+mov edx, len_msgX
+mov eax, SYS_WRITE
+mov ebx, STDOUT
+int 0x80
+
+;; remove current value of %edx
+xor edx, edx
+xor eax, eax
+;; pass dividend to %eax		 		  %eax=123
+mov al, [x]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;pass divisor to (%ebx = 100)
+mov ebx, 100
+
+;; eax = 1 , edx = 23
+cdq
+div ebx
+
+;; remainder in %edx, result in %eax
+
+;; eax = "1" 
+add eax, '0'
+
+;; save number to memory for printing
+;; %ebx = $number_str
+mov byte [number_str], al
+
+;; eax = 23
+mov eax, edx
+
+;; edx = 0
+xor edx, edx
+
+;; ebx = 10
+mov ebx, 10
+
+;; eax : ebx 
+cdq
+div ebx
+;; => eax = 2, edx = 3
+
+;; save digits to memory
+add eax, '0'
+add edx, '0'
+mov byte [number_str + 1], al
+mov byte [number_str + 2], dl
+;;;;;;;;;;;;;;;;;;;;;;;;
+
+mov eax, SYS_WRITE
+mov ebx, STDOUT
+mov ecx, number_str
+mov edx, 3
+int 0x80
+
+xor eax,eax
+xor ebx,ebx
+xor ecx,ecx
+xor edx,edx
+;;; cho nó khỏi lỗi :vv
+mov eax, SYS_EXIT
+xor ebx, ebx
+int 0x80

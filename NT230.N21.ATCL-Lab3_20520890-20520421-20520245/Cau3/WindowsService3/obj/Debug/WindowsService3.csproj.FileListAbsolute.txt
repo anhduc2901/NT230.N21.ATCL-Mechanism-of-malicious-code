@@ -1,0 +1,17 @@
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\bin\Debug\WindowsService3.exe.config
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\bin\Debug\WindowsService3.exe
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\bin\Debug\WindowsService3.pdb
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.csproj.AssemblyReference.cache
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.ProjectInstaller.resources
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.csproj.GenerateResource.cache
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.csproj.CoreCompileInputs.cache
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.exe
+D:\Mechanism's_action_of_malicious_code\lab3\câu 3\WindowsService3\obj\Debug\WindowsService3.pdb
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\bin\Debug\WindowsService3.exe.config
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\bin\Debug\WindowsService3.exe
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\bin\Debug\WindowsService3.pdb
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\obj\Debug\WindowsService3.ProjectInstaller.resources
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\obj\Debug\WindowsService3.csproj.GenerateResource.cache
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\obj\Debug\WindowsService3.csproj.CoreCompileInputs.cache
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\obj\Debug\WindowsService3.exe
+D:\Mechanism's_action_of_malicious_code\lab3\Cau3\WindowsService3\obj\Debug\WindowsService3.pdb

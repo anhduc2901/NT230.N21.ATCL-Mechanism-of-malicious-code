@@ -1,0 +1,11 @@
+	USING WINDOW API
+-CheckRemoteDebuggerPresent
+-IsdebuggerPresent
+-NtQueryInfirmationProcess
+-OutputDebugString: hđh có hàm kt có dubugger hay k , truyền cho nó
+-Checking for System Residue : 
+-INT(interupt) scanning   OCC
+-Performing code checksum : check sum ct , co int thi phat hien
+-Timing check : kiem tra su chech lech giua cac lenh  (rdtsc : tick , tick chenh lech nhieu thi co dung debugger)
+-Intefering witH Debugger Functionality
+-Quering the IO Communication port : port ket noi giua mt that va ao

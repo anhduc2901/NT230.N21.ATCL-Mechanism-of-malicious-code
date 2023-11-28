@@ -1,0 +1,7 @@
+-Call hijacking
+-IAT replacing (import address table)
+ex:Symbols :  Win API
+vd : đổi địa chỉ của func mà ct chắc chắn gọi  
+   và cần phải trả lại địa chỉ của hàm đó sau khi TH 
+   payload
+-

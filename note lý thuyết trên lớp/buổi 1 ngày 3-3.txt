@@ -1,0 +1,145 @@
+kỹ thuật phân tích mã độc (môn học sau này)
+
+
+
+
+
+					modus operandi là gì
+Modus operandi (viết tắt là MO) là thuật ngữ được sử dụng trong lĩnh vực pháp lý để chỉ cách thức hoạt động 
+của tội phạm khi thực hiện một hành vi phạm tội. Đây là một thuật ngữ Latinh có nghĩa là "cách làm việc". 
+Các nhà điều tra sử dụng MO để giúp xác định thủ phạm của một tội ác bằng cách so sánh các đặc điểm cụ thể của 
+các hành vi phạm tội và tìm ra các mẫu lặp đi lặp lại trong các hành vi đó. MO cũng có thể được sử dụng để giúp 
+dự đoán hành vi tương lai của tội phạm và tìm kiếm những gợi ý liên quan đến hành vi phạm tội.
+
+
+
+
+
+					mã độc là gì
+Mã độc (malware) là phần mềm được thiết kế để gây ra hại cho máy tính và người dùng. Có nhiều loại mã độc khác nhau,
+ và cơ chế hoạt động của chúng cũng khác nhau tùy thuộc vào mục đích và tính năng của chúng.
+
+Một số cơ chế hoạt động phổ biến của mã độc bao gồm:
+
+Virus: là loại mã độc có khả năng tự nhân bản bằng cách lây nhiễm vào các tập tin khác trên máy tính. Virus có thể tấn công các file hệ thống, các phần mềm chạy trên máy tính, và có thể lan truyền qua email hoặc các thiết bị lưu trữ khác.
+
+Worm: tương tự như virus, worm cũng có khả năng tự nhân bản và lan truyền trên các thiết bị mạng. Tuy nhiên, worm không cần phải lây nhiễm vào các tập tin, mà chúng có thể tự chạy và lan truyền thông qua các lỗ hổng bảo mật trên hệ thống.
+
+Trojan: là loại mã độc được giấu kín trong các tập tin hoặc phần mềm khác và thường được camouflaged bằng các tên tập tin giống như các phần mềm bình thường. Khi người dùng tải và cài đặt chúng, trojan sẽ giải mã và thực thi các hành động độc hại.
+
+Ransomware: là loại mã độc nhằm vào việc mã hóa dữ liệu trên máy tính của người dùng và yêu cầu tiền chuộc để giải mã. Ransomware có thể lây nhiễm qua email, website độc hại, hoặc các phần mềm giả mạo.
+
+Spyware: là loại mã độc được thiết kế để thu thập thông tin của người dùng mà không được sự cho phép của họ. Spyware có thể thu thập các thông tin nhạy cảm như mật khẩu, thông tin ngân hàng, và các dữ liệu cá nhân khác.
+
+Để bảo vệ máy tính khỏi mã độc, người dùng cần cài đặt phần mềm diệt virus và firewall, không mở các email hoặc tập tin không xác định nguồn gốc, và cập nhật các bản vá bảo mật định kỳ.
+
+
+
+
+
+MALWARE : phá hoại (ez to see) or đánh cắp dữ liệu (much harder to know)
+1.Malicious
+
+2.Software
+
+
+
+
+					Các nguyên nhân lây nhiễm mã độc 
+
+1.Phần mềm độc hại trên các trang web độc hại: Người dùng có thể bị lây nhiễm mã độc khi truy cập vào các 
+trang web độc hại chứa phần mềm độc hại.
+
+2.Email lừa đảo: Email lừa đảo (phishing) cũng là một nguyên nhân phổ biến dẫn đến lây nhiễm mã độc. 
+Những email này có thể chứa các tệp đính kèm hoặc đường dẫn đến trang web độc hại.
+
+3.Phần mềm độc hại qua USB hoặc thiết bị lưu trữ khác: Một số phần mềm độc hại có thể được truyền qua các thiết bị lưu trữ như USB, đĩa CD hoặc DVD.
+
+3.Phần mềm độc hại trên các phần mềm chia sẻ tập tin: Người dùng có thể bị nhiễm phần mềm độc hại thông qua việc 
+tải xuống các tệp từ các phần mềm chia sẻ tập tin không an toàn.
+
+4.Thiếu bảo mật và cập nhật phần mềm: Máy tính của người dùng có thể bị lây nhiễm mã độc nếu không có bảo mật đủ 
+hoặc không được cập nhật phần mềm đầy đủ.
+
+5.Phishing qua mạng xã hội: Một số phần mềm độc hại được phân phối qua các liên kết độc hại trên mạng xã hội,
+ nhắm mục tiêu vào người dùng để cài đặt phần mềm độc hại.
+
+
+
+
+
+
+					Dấu hiệu bị nhiễm mã độc
+Tốc độ hoạt động chậm hơn thường lệ: Nếu máy tính của bạn hoạt động chậm hơn bình thường, điều đó có thể là do
+ các quá trình độc hại đang chạy ngầm trên hệ thống của bạn.
+
+Trình duyệt web bất thường: Các trang web có thể hiển thị không chính xác hoặc quảng cáo và liên kết không mong muốn
+ có thể xuất hiện trên trình duyệt web của bạn.
+
+Quảng cáo xuất hiện trên màn hình: Những thông báo quảng cáo hoặc cửa sổ pop-up có thể xuất hiện ngẫu nhiên trên
+ màn hình của bạn.
+
+Sự xuất hiện của các chương trình mới hoặc không mong muốn: Nếu bạn thấy các chương trình mới xuất hiện trên máy 
+tính của mình mà không cài đặt hoặc mong muốn chúng, hệ thống của bạn có thể bị lây nhiễm.
+
+Sự xuất hiện của các tệp không rõ nguồn gốc: Nếu bạn phát hiện ra các tệp mới trên hệ thống của mình mà không rõ 
+nguồn gốc hoặc chưa từng thấy trước đây, đó có thể là tệp độc hại.
+
+
+
+
+
+
+
+
+			Phương pháp xác định , phân tích và ngăn chặn ,loại bỏ mã độc
+
+Xác định: Xác định nguồn gốc của mã độc và phạm vi tác động của nó. Điều này có thể được thực hiện thông qua
+ quá trình kiểm tra lịch sử hoạt động của hệ thống, bao gồm tập tin và ứng dụng được cài đặt.
+
+Phân tích: Phân tích mã độc để hiểu cách nó hoạt động và tác động của nó lên hệ thống. Các công cụ phân tích mã độc
+ như Antivirus, Anti-malware, và sandboxes có thể được sử dụng để phân tích mã độc.
+
+Ngăn chặn: Ngăn chặn sự lây lan của mã độc bằng cách cập nhật các chương trình bảo mật, khóa các cổng mạng,
+ tắt các dịch vụ không cần thiết và cài đặt phần mềm chống virus và tường lửa.
+
+Loại bỏ: Loại bỏ mã độc khỏi hệ thống. Điều này có thể được thực hiện bằng cách sử dụng phần mềm diệt virus,
+ hoặc thủ công bằng cách xóa tập tin hoặc thư mục chứa mã độc.
+
+
+
+
+
+
+
+
+
+
+CHƯƠNG TRÌNH DẠY HỌC ,........nh vcl  (nghệ thuật hắc ám)
+Thi : 90p (4 tu luan : 2 diem do an,van dung kien thuc +  6 trac no)
+
+thuc hanh : 30
+bt + cau hoi + challenge : 30
+ck : 40
+
+len course tải slide
+
+1 nhóm / 3 xác
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+
+				

@@ -1,0 +1,17 @@
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe.config
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.csproj.AssemblyReference.cache
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.cache
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.csproj.CoreCompileInputs.cache
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.exe
+D:\CƠ CHẾ HOẠT ĐỘNG CỦA MÃ ĐỘC\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.pdb
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe.config
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.cache
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.csproj.CoreCompileInputs.cache
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.exe
+D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\obj\Debug\WindowsService1.pdb

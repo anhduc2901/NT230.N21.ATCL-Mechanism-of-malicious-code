@@ -1,0 +1,29 @@
+TTP : Tactics, technique,producedure
+
+Cyber skill chain
+
+attack.mitre.org
+
+APT : tấn công có chủ đích (tcong tutu) - tinh vi (bỏ qua mt khác k chạy)
+
+iredteam.com
+
+enviroment sensivity : ability to perceive, register and then process external stimuli (an-ti debugging)
+	  / keying   : encrypt,decrypt , payload (dựa vào tham số mt)
+
+
+giả định bị tấn công : dựa vào TTP để phản ứng
+
+==> SOCs.
+
+Downloaders : URLDownloadtoFileA
+
+Launcher : tự động : dll injection , process hollowing
+
+Backdoors: cung cấp khả năng kết nối từ xa , attack đi theo đường backdoor đã tạo trc
+
+netcat reverse shell 
+
+RATS : remote administrator tool
+
+Credential steelers : dump , key loggers , steal in4 from access to some website

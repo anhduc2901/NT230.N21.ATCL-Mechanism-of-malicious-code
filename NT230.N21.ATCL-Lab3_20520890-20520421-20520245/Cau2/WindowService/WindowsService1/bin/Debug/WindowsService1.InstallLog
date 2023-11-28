@@ -1,0 +1,130 @@
+﻿Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = D:\Mechanism's_action_of_malicious_code\lab3\WindowService\WindowsService1\bin\Debug\WindowsService1.exe

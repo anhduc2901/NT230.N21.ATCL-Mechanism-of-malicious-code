@@ -1,0 +1,4 @@
+cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+
+InstallUtil.exe + Your_copied_path+\your_service_name+.exe

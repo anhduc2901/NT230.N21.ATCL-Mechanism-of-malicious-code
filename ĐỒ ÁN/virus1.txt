@@ -1,0 +1,21 @@
+1.Oligomorphic : là virus dị hình , nó sử dụng 1 số lượng ecryptors,decryptors có giới hạn .
+Encryptors để mã hóa các virus body (đoạn mã độc) với mục đích nhằm trốn tránh sự phát hiện 
+các phần mềm như anti-virus .Decryptors để giải mã các virus body đc mã hóa khi chúng cần
+được thực thi. Nhưng với sự phát triển hiện này thì anti virus có thể dùng các
+signatiures hay patterns để biết đc các virus body này đc mã hóa và ngăn chặn loại virus dị 
+hình này đc thực thi . Khi sử dụng encryptors để mã hóa virus body thì nó sẽ không thay đổi cấu
+trúc của chương trình cũng như chức năng chính của nó . Nó chỉ mã hóa đoạn mã độc để tránh anti
+virus thôi  . Ngoài ra thì chúng ta cũng có thể sử dụng dynamic detection để phát hiện loại virus
+này
+
+2.Polymorphic : virus đa hình , nó sử dụng 1 số encryptors,decryptors khá lớn nên các phần mềm
+anti virus không thể có hết tất cả các signatures,patterns để phát hiện ra từng loại encryptor
+của virus này .Tương tự như virus Oligomorphic khi mã hóa nó cũng chỉ mã hóa đoạn mã độc chứ
+không làm thay đổi cấu trúc chương trình cũng như chức năng chính của nó .Nhưng virus này vẫn
+bị phát hiện bởi dynamic detection
+
+=> 3.Metamorphic : virus siêu hình , nó là loại virus có thể tự viết , biên dịch và thực thi 
+chính nó . Điều này sẽ làm thay đổi cấu trúc của chương trình nhưng vẫn giữ nguyên chức năng 
+chính .Vì vậy đây là 1 loại virus khá khó để tạo ra , đòi hỏi kiến thức chuyên sâu để tạo ra 
+Virus sẽ không bị phát hiện bởi signatures , patterns hay dynamic detection . Để phát hiện
+virus này , ta có thể dùng kỹ thuật heuristic detection để phát hiện nó 

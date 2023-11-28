@@ -1,0 +1,29 @@
+- Che giấu tt của ct phần mềm
+- ứng dụng vào xd mã độc : nén nh section trong payload
+
+- nhận vào file và cho ra
+
+Compressor : nén để giảm kích thước
+	thấy nh section
+packer (unpacking stack) : nén để bảo vệ dữ liệu , giải nén ra đc .exe chạy đc luôn
+	1 , 2 cái section
+
+ nén 			no	
+ đóng gói ,mở gói 	yes
+
+ Chọn vùng nhớ cần giải nén , thay đổi địa chỉ t.ứng của hàm : vì khi mở gói thì có đ.chỉ khác
+đưa cái orginal point 
+
+1. packing/unpack : đc nh section , hay nén vào thì phải thay đổi địa chỉ trỏ vào nó
+
+2. mở gói : phục hồi section thì phải thay đổi giá trị entry ban đầu để nó chạy
+
+3. most used packer : UPX
+
+
+
+IDENTIFYING PACKER
+- few imports
+- small amount of code is recognized by the automatic analysis 
+- abnormal section sizes
+ex : .text section with a Size of Raw Data of 0 and Virtual Size of nonzero.

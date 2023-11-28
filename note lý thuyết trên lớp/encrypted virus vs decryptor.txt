@@ -1,0 +1,6 @@
+-Encrypted Virus
+
+Tìm decryptor (tập hợp lệnh máy) , để phân tích encrypted virus
+ex :
+availabe encryptor	
+customized decryptor - self writting

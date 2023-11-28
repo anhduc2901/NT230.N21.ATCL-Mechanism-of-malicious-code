@@ -1,0 +1,20 @@
+YC 1
+python2 boss.py -c nt230k15 -n k15master -x qwerty -s irc.axon.pw
+
+YC 2 : 
+
+python2 boss.py -c nt230k15 -n k15master -x qwerty -s irc.axon.pw (not working )
+python2 worker.py -b k15master -s irc.axon.pw -n anhduck15 	  (not working )
+
+
+python2 boss.py -c nt230k15 -n k15master -x qwerty 		   (*.irc4fun.net works fine)
+python2 worker.py -b k15master -n anhduck15 
+
+
+python2 worker.py -b nt2300401 -s irc.irc4fun.net -n <name>
+
+https://github.com/coleifer/irc/blob/master/botnet/worker.py
+
+python2 boss.py -b nt2300401 -s irc.irc4fun.net -n <name>
+
+/usr/local/lib/python2.7/dist-packages/botnet

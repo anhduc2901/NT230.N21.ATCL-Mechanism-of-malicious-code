@@ -1,0 +1,97 @@
+SYS_EXIT equ 1
+SYS_READ equ 3
+SYS_WRITE equ 4
+STDIN equ 0
+STDOUT equ 1
+segment .data 
+ msg1 db "Enter a number ", 0xA,0xD
+ len1 equ $- msg1 
+ 
+ msg2 db "Please enter a second number", 0xA,0xD
+ len2 equ $- msg2 
+ 
+ msg3 db "Please enter a third number: ",0xA,0xD
+ len3 equ $- msg3
+ 
+ msg4 db "The smallest one is : "
+ len4 equ $- msg4
+ 
+
+msg5 db 0xA
+ len5 equ $- msg5
+ 
+ 
+segment .bss
+ num1 resb 10
+ num2 resb 10
+ num3 resb 10
+ res resb 10
+section .text
+ global _start ;must be declared for using gcc
+ 
+_start: ;tell linker entry point
+ mov eax, SYS_WRITE 
+ mov ebx, STDOUT 
+ mov ecx, msg1 
+ mov edx, len1 
+ int 0x80 
+ mov eax, SYS_READ 
+ mov ebx, STDIN 
+ mov ecx, num1 
+ mov edx, 10
+ int 0x80 
+ 
+ mov eax, SYS_WRITE 
+ mov ebx, STDOUT 
+ mov ecx, msg2 
+ mov edx, len2 
+ int 0x80
+ mov eax, SYS_READ 
+ mov ebx, STDIN 
+ mov ecx, num2 
+ mov edx, 10
+ int 0x80 
+ 
+ 
+ mov eax, SYS_WRITE 
+ mov ebx, STDOUT 
+ mov ecx, msg3 
+ mov edx, len3 
+ int 0x80
+ mov eax, SYS_READ 
+ mov ebx, STDIN 
+ mov ecx, num3 
+ mov edx, 10
+ int 0x80 
+ ; moving the first number to eax register and second number to ebx
+ ; and subtracting ascii '0' to convert it into a decimal number
+ 
+ mov ecx, [num1]
+ cmp ecx, [num2]
+ jl check_third_num
+ mov ecx, [num2]
+ 
+check_third_num:
+ cmp ecx, [num3]
+ jl _exit
+ mov ecx, [num3]
+ 
+ _exit:
+ 
+ mov [res], ecx
+ mov ecx,msg4
+ mov edx, len4
+ mov ebx,1 ;file descriptor (stdout)
+ mov eax,4 ;system call number (sys_write)
+ int 0x80 ;call kernel
+ 
+ mov ecx,res
+ mov edx, 10
+ mov ebx,1 ;file descriptor (stdout)
+ mov eax,4 ;system call number (sys_write)
+ int 0x80 ;call kernel
+ 
+ mov eax, 1
+ int 80h
+
+ 

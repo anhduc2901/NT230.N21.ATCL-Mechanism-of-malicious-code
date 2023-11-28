@@ -1,0 +1,14 @@
+-Dị hình : 
++ có khả năng thay đổi mã hoặc cấu trúc của chính nó mỗi 
+khi sao chép để tránh bị phát hiện bởi phần mềm chống virus.
++ sử dụng các kỹ thuật mã hóa và giải mã để thay đổi mã của 
+chúng một cách ngẫu nhiên.
+
+-Đa hình :
++ tự động biến đổi cấu trúc của chính nó mà không cần sử dụng các 
+kỹ thuật mã hóa hoặc giải mã.
+
+-Siêu hình :
++ tạo ra các phiên bản virus đa hình hoặc dị hình. Virus siêu hình
+thường sử dụng các kỹ thuật mã hóa và giải mã để tạo ra các phiên 
+bản khác nhau của chính nó.

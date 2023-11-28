@@ -1,0 +1,7 @@
+gcc -m32 example1.c -o example1 -mpreferred-stack-boundary=2
+
+gcc -m32 example2.c -o example2 -mpreferred-stack-boundary=2 -fno-stack-protector
+
+gcc -m32 example3.c -o example3 -mpreferred-stack-boundary=2 -fno-stack-protector
+
+gdb -q example1

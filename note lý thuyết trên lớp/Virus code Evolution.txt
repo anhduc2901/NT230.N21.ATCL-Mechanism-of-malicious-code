@@ -1,0 +1,3 @@
+Virus code Evolution
+
+-mỗi lần nhân bản thì decryptor sẽ thay đổi

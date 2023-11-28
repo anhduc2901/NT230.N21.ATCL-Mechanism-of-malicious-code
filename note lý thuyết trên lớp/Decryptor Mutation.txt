@@ -1,0 +1,14 @@
+Decryptor Mutation
+
+1. dị hình
+-thêm vào các lệnh rác => làm nhiễu decryptor
+-<d1,..,dn> + <encrypted 1,...,enc n >
+
+2.polymophic (đa hình) : biến đổi d
+MtE + d + enc
+      d1
+      d2
+     . . .  
+
+3.Metamophic (siêu hình) : MtE biến đổi cả d và enc
+ (payload)

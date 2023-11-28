@@ -1,0 +1,49 @@
+1.Oligomorphic : dị hình
+
+-Là virus sử dụng các encryptors, decryptors có số lượng cụ thể để mã hóa virus body với
+mục đích nhằm ngăn chặn sự phát hiện của anti-virus và các công cụ phát hiện malware khác
+nhưng với sự phát triển của các phần mềm anti-virus thì nó có thể dựa vào các patterns để
+phát hiện encrypted virus body và ngăn chặn virus dị hình
+
+2.Polymorphic : đa hình
+-Là 1 virus tương tự với Oligmorphic nhưng số lượng encryptors, decryptors quá nhiều khiến
+các phần mềm anti-virus không thể có đủ các patterns để phát hiện loại virus này , nó sử 
+dụng encryption key để tạo ra bản sao khác nhau của chính mình . 
+	VD : cùng 1 loại Polymorphic virus đc tải từ 1 trang web giống nhau thì key nó 
+dùng để mã hóa khác nhau và sẽ cho ra output khác nhau nhưng vẫn giữ nguyên cấu trúc của
+virus
+
+3.Metamorphic : siêu hình
+-Virus này sẽ tự viết lại chính nó nhưng chức năng của nó không đổi so với ban đầu với 
+mục đích qua mặt các anti-virus và tool phát hiện malware . Đối với 2 loại virus trên thì
+sau khi sử dụng encryptors thì chúng nó  vẫn mang hình thái ban đầu 
+	VD : nó có hình vuông thì sau khi encrypt nó vẫn là hình vuông chỉ là hình vuông 
+	bị encrypt thôi
+	Đối với Metamorphic thì nó sẽ mang 1 hình thái hoàn toàn khác (bằng cách chèn 
+	thêm các junk instructions như : nop, ...) và chức năng của nó vẫn đc giữ nguyên 
+
+
+File infection technique
+	-Là 1 kĩ thuật chèn mã độc (payload) thường là vào các file thực thi của chương trình(.exe)
+	Sau khi chèn vào thì chương trình sẽ thực thi đoạn mã độc và sau đó mới thực thi chương 
+	trình mà mã độc đc chèn vào .
+	=> Attacker có thể gây hại đến target system
+
+Fileless malware
+	-Ở 1 khía cạnh nào đó thì chúng ta có thể hiểu nó là zero-day attack (những cuộc tấn công
+	khai thác những lỗ hổng : thường là các lỗ hổng mới hoặc chưa đc fix) để truyền payload qua
+	máy victim và thực hiện payload đó
+	Một vd cụ thể là victim tải payload từ website và thực thi nó thì payload đó có thể connect
+	về máy attacker và tạo 1 phiên terminal vs quyền admin 
+	=>Attaker có thể dùng nó để gây hại lên máy victim
+
+
+Enviromental 
+	Sensitivity : 
+		Malware có thể phát hiện môi trường như : máy ảo , sandbox mà các forensicers bỏ chúng vào để
+			phân tích . Bằng cách này chúng sẽ kiểm tra các tham số môi trường để nhận diện và thực
+			thi khi và chỉ khi chúng đang ở máy tính của victim
+
+	Keying :
+		enviromental keying là điều kiện cụ thể mà khi máy tinh victim đạt đc thì malware sẽ thực thi
+		VD: malware đc cài vào và bắt đầu đếm sau 10 ngày thì sẽ thực thi mã độc để gây hại cho victim

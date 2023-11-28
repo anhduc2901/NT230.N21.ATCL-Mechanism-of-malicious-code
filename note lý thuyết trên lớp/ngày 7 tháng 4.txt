@@ -1,0 +1,32 @@
+Code Obfuscatino
+- tron tranh su phat hien
+- Virus encryption
+- mutation engine :  biến đổi virus tránh anti - viruss
+- bien doi decryptor
+- bien doi payload
+
+=> bien doi mau cua ma doc
+- di hinh   :  
+- sieu hinh : doc ac , kho nhan biet 
+trong cac virus dot bien
+
+- oligomorphic (đa hình) : khoảng 10 cái nhưng biến đổi ác
+- nop k0 phải là junk lý tưởng
+- thêm cái lệnh khác ngoài 'nop'
+vd : khai báo sn khác làm gì đó ,... miễn là k ảnh hưởng đến 
+decryptor
+- 
+
+
+
+1260 virus decyprtor 
+-Chèn các thứ , chèn đc đâu thì chèn
+-Có quy tắc chèn , chuẩn bị lệnh junk (q,p,r,s,t)
+-Quyết định bn lệnh chèn vào
+-Reorder instruction group = jump 
+-Các lệnh trong group có thể dc thay đổi (xáo trộn các thứ)
+- 
+
+Tìm kiếm sự tồn tại của decryptor 
+
+

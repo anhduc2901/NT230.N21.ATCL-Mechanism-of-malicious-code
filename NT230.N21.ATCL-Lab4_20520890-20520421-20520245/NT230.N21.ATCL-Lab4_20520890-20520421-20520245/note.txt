@@ -1,0 +1,15 @@
+gcc -m32 example.c -o example -mpreffered-stack-boundary=2 -static
+gdb - q
+
+sysctl -p on server without reboot
+
+add 5 byte to return address
+
+-m32 when build
+
+
+gcc -m32 -mpreferred-stack-boundary=2 -z execstack -fno-stack-protector -o remoteexploit remoteexploit.c
+
+gcc -o exit -static exit.c
+
+ gcc -m32  -mpreferred-stack-boundary=2 -z execstack -fno-stack-protector -o  vul_server vul_server.c

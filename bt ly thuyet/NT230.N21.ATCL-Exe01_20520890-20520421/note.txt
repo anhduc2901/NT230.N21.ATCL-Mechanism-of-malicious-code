@@ -1,0 +1,47 @@
+NỘI DUNG CỦA NOTEPAD.EXE
+
+AddressOfEntryPoin	0x0000739D			13C00
+ImageBase		0x01000000
+
+			0x0100739D (địa chỉ ảo  - virtual address) xác định vị trí thực thi của chương trình)
+
+
+Trong HxD, ta chọn địa chỉ	0x00011000 trong vùng nhớ đãđược mở ro ̣ng (bước 
+C1) đẻlưu trữ mãhợp ngữ
+
+
+− VirtualSize:		 kích thước của section khi được load vào bộ nhớ.
+− VirtualAddress(VA):	địa chỉ của section khi được load vào bộ nhớ.			B000
+− RawSize: 		kích thước của section trong PE file.
+− RawAddress(RA): 	địa chỉ của section trong PE file				8400
+
+
+0x00011000		lưu mã hợp ngữ
+0x00011040		Caption
+0x00011060		trữText
+
+Offset = RA – Section RA = VA – Section VA (1)
+
+	0x00011040 – 0x00008400 = X – 0x000B000
+						=>	X = 0x00013C40
+
+Cong them ImageBase, suy ra X = 0x01013C40. Tương tự , Y = 0x01013C60.
+
+
+X 	00214000
+Y	0C214000
+Z	34204000
+
+RESORCE		
+
+
+X = 0x01013C40 (CAPTION)
+Y = 0x01013C60 (TEXT)	
+Z = 01001268	(message box)
+JUMP = 	0xFFFF3784
+
+6a 00	68 40 3C 01 01	 68 60 3C 01 01 6a 00  ff 15 68 12 00 01 e9  84 37 FF FF
+ 
+
+
+

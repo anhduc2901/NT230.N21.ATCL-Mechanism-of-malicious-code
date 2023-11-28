@@ -1,0 +1,10 @@
+Nimda (email ,user action), Code red I (static) vs red II (random)
+	Defacement website
+
+
+	
+SQL slammer
+	exploit SQL server
+	Faster than code red I
+Morris
+	

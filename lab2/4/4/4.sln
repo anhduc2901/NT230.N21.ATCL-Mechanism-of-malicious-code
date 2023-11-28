@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4", "4.csproj", "{54AE2128-4A50-426E-84BA-1844D85B391C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|x64.ActiveCfg = Debug|x64
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|x64.Build.0 = Debug|x64
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|x86.ActiveCfg = Debug|x86
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Debug|x86.Build.0 = Debug|x86
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|x64.ActiveCfg = Release|x64
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|x64.Build.0 = Release|x64
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|x86.ActiveCfg = Release|x86
+		{54AE2128-4A50-426E-84BA-1844D85B391C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D13EC8D8-61BD-4EBD-BC1C-6668D1783FF6}
+	EndGlobalSection
+EndGlobal
